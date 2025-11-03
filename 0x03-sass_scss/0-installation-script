@@ -1,0 +1,29 @@
+content: |
+  Installing and Initializing Sass in my Project
+
+  I used the following commands to install and initialize Sass in my project:
+
+  ```bash
+  npm init -y
+  ```
+  This command initializes a new Node.js project by creating a `package.json` file with default settings.
+
+  ```bash
+  npm install sass --save-dev
+  ```
+  This command installs Sass as a development dependency in my project, allowing me to compile SCSS files into CSS.
+
+  After running these commands, I can now use Sass in my project to write and compile stylesheets.
+
+  To compile SCSS files to CSS, I used the following command:
+
+  ```bash
+  npx sass source/styles.scss output/styles.css
+  ```
+  This command takes the `styles.scss` file from the `source` directory and compiles it into a `styles.css` file in the `output` directory.
+
+  After completing these steps, I linked the compiled CSS file in my HTML to apply the styles to my web pages.
+
+  ```html
+  <link rel="stylesheet" href="output/styles.css">
+  ```
